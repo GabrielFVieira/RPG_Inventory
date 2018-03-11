@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a65376ea02934346bf938d1f1dd34a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: "Recupera um pok\xE9mon derrotado e o deixa com HP no m\xE1ximo"
+  description: "Recupera um pok\xE9mon e deixa seu HP no m\xE1ximo"
   inInventory: 0
   startPos: {x: 0, y: 0, z: 0}
   index: 0

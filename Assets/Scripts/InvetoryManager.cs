@@ -92,9 +92,9 @@ public class InvetoryManager : MonoBehaviour {
     {
         if (GetComponent<AudioSource>().isPlaying == false)
         {
-            bg.SetActive(false);
-            GetComponent<AudioSource>().Play();
             videoPlayer.Play();
+            GetComponent<AudioSource>().Play();
+            bg.SetActive(false);
         }
     }
 

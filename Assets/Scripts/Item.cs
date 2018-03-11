@@ -48,10 +48,12 @@ public class Item : MonoBehaviour
 
         if (colInv)
         {
-            if (drag == false && invManager.hasSpace > 0)
+            if (drag == false)
             {
-                inInventory = true;
-                if (invManager.invObj.Contains(this.gameObject) == false)
+                if (invManager.hasSpace > 0)
+                    inInventory = true;
+
+                if (invManager.invObj.Contains(this.gameObject) == false && invManager.hasSpace > 0)
                     invManager.AddItem(this.gameObject);
 
                 else
